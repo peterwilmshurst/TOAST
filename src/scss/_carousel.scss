@@ -1,0 +1,63 @@
+.article-carousel {
+  &--slide {
+    padding: 1rem;
+
+    img {
+      min-width: 100%;
+    }
+  }
+
+  p {
+    padding: 0.25rem 0;
+  }
+
+
+  // reset button styles
+  button {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .slide-arrow {
+    position: absolute;
+    top: 32%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    z-index: 1;
+
+    &.prev-arrow {
+      left: -1rem;
+
+      @include media-breakpoint-up(sm) {
+        left: -2rem;
+      }
+
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f053";
+      }
+    }
+
+    &.next-arrow {
+      right: -1rem;
+
+      @include media-breakpoint-up(sm) {
+        right: -2rem;
+      }
+
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f054";
+      }
+    }
+  }
+}

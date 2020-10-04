@@ -1,0 +1,35 @@
+.lead {
+font-size: 1.25rem;
+font-weight: 200;
+line-height: 2rem;
+}
+.quote {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.author {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 0 0 2rem 0;
+}
+
+.social-media {
+  padding: 0;
+  margin: 0;
+
+  &__link {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+

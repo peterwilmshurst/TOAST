@@ -1,0 +1,62 @@
+// Typography
+@import url('//fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+// Colours
+$black: #1e1e1e;
+$grey: #6D6F71;
+$white: #fff;
+$red: #dc3545;
+$wilmshurst: #39b54a;
+
+
+:focus {outline:none;}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+hgroup {
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+h1 {
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 400;
+}
+
+p {
+  color: $black;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+a {
+    font-weight: 400;
+    text-underline-position: under;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: $black;
+    &:hover {
+        color: $wilmshurst;
+    }
+}
+
+img {
+    padding: 1rem 0;
+}

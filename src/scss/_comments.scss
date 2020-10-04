@@ -1,0 +1,42 @@
+.comments-container {
+  border: 1px solid $black;
+  padding: 3rem;
+  a {
+      margin-bottom: 2rem;
+  }
+
+  &__comment {
+      margin: 1rem 0;
+      &:first-of-type {
+          margin-top: 2rem;
+      }
+
+    &__user-details {
+      p {
+        padding: 0;
+        font-weight: 400;
+        span {
+            font-weight: 200;
+            color: $grey;
+            padding-left: 1rem;
+        }
+      }
+    }
+
+    &__user-comment {
+      word-wrap:break-word;
+
+      p {
+        padding: 0.25rem 0;
+      }
+    }
+
+    &__user-controls {
+        padding: 1rem 3rem;
+      a {
+        text-transform: lowercase;
+      }
+    }
+  }
+
+}
