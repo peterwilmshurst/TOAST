@@ -89,7 +89,7 @@
                 <a href="#" title="Comment Here">Comment Here</a>
                 {{#each this}}
                     <div class="comments-container__comment">
-                        <div class="row"><div class="col comments-container__comment__user-details"><p>{{author}} <span>{{timeStamp}}</span></p></div></div>
+                        <div class="row"><div class="col comments-container__comment__user-details"><p>{{author}} <span>{{formatDate timeStamp}}</span></p></div></div>
                         <div class="row"><div class="col comments-container__comment__user-comment">{{{comment}}}</div></div>
                         <div class="row"><div class="col comments-container__comment__user-controls"><a href="#" title="reply">reply</a></div></div>
                     </div>
