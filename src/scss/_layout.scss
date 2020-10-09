@@ -1,24 +1,83 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+hgroup {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+p {
+  color: $black;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+a {
+  font-weight: 400;
+  text-underline-position: under;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: $black;
+
+  &:hover {
+    color: $wilmshurst;
+  }
+}
+
+img {
+  padding: 1rem 0;
+}
+
 .lead {
-font-size: 1.25rem;
-font-weight: 200;
-line-height: 2rem;
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: 2rem;
 }
+
 .quote {
-    font-size: 1.75rem;
-    font-weight: 400;
-    line-height: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.5rem;
 }
+
 .author {
-    font-size: 0.9375rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-transform: uppercase;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-transform: uppercase;
 }
 
 section {
-    padding: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
 }
 
 .social-media {
@@ -31,5 +90,3 @@ section {
     padding: 1rem;
   }
 }
-
-
