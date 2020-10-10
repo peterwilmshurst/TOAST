@@ -38,7 +38,3 @@ $.get(jsonContent, data => {
         $this.append($this.find('.comments-container__comment').get().sort((a, b) => $(b).data('index') - $(a).data('index')));
     });
 });
-
-$(document).ready(() => {
-    loadComments()
-})

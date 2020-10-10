@@ -94,8 +94,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                     <h4>Keep up with our latest articles and news</h4>
-                    <form id="signUp" action="https://www.peterwilmshurst.co.uk" onsubmit="return(validate());">
-                        <input type="email" class="form-control email-signup" placeholder="enter your email" id="email-address" />
+                    <form id="signUp" action="https://www.peterwilmshurst.co.uk" onsubmit="return(validate());" method="POST">
+                        <input type="email" class="form-control email-signup" placeholder="enter your email" name="email-address" id="email-address" />
                         <div id="formError" class="form-error"></div>
                         <input type="submit" class="btn btn-signup" value="Sign Up" id="submit-btn" />
                     </form>
